@@ -19,6 +19,7 @@
             colors: {
               clifford: "#da373d",
               customRed: "#FF4240",
+              customGray: "rgba(19, 19, 24, 0.6)",
             },
           },
         },
@@ -202,7 +203,122 @@
       </div>
     </header>
 
-    <main></main>
+    <main class="container mx-auto">
+      <!-- Stats Section -->
+      <section class="mt-24">
+        <!-- title -->
+        <div class="text-center py-8 border-dashed border-y-2">
+          <h3 class="text-4xl font-extrabold">Professional Hockeys Club</h3>
+          <p
+            class="text-base font-medium text-customGray leading-[26px] mt-6 w-1/2 inline-flex"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <!-- stats container -->
+        <div
+          class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+        >
+          <!-- stats 1 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <div class="relative">
+              <div
+                class="radial-progress text-primary text-customRed z-10"
+                style="--value: 87"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold">87%</span>
+              </div>
+              <div
+                class="radial-progress absolute top-0 left-0 text-slate-200 z-0"
+                style="--value: 100"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold"></span>
+              </div>
+            </div>
+            <h6 class="mt-6 mb-4 text-xl font-semibold">Prayer Facility</h6>
+            <p class="text-base font-normal leading-[26px]">
+              Amet consectetur. Condimentum dignissim adipiscing.
+            </p>
+          </div>
+
+          <!-- stats 2 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <div class="relative">
+              <div
+                class="radial-progress text-green-400 text-customRed z-10"
+                style="--value: 95"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold">95%</span>
+              </div>
+              <div
+                class="radial-progress text-primary absolute top-0 left-0 text-slate-200 z-0"
+                style="--value: 100"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold"></span>
+              </div>
+            </div>
+            <h6 class="mt-6 mb-4 text-xl font-semibold">Experienced Coach</h6>
+            <p class="text-base font-normal leading-[26px]">
+              Amet consectetur. Condimentum dignissim adipiscing.
+            </p>
+          </div>
+
+          <!-- stats 3 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <div class="relative">
+              <div
+                class="radial-progress text-yellow-400 text-customRed z-10"
+                style="--value: 90"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold">90%</span>
+              </div>
+              <div
+                class="radial-progress text-primary absolute top-0 left-0 text-slate-200 z-0"
+                style="--value: 100"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold"></span>
+              </div>
+            </div>
+            <h6 class="mt-6 mb-4 text-xl font-semibold">Senior Player</h6>
+            <p class="text-base font-normal leading-[26px]">
+              Amet consectetur. Condimentum dignissim adipiscing.
+            </p>
+          </div>
+
+          <!-- stats 4 -->
+          <div class="flex flex-col items-center justify-center text-center">
+            <div class="relative">
+              <div
+                class="radial-progress text-blue-400 z-10"
+                style="--value: 80"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold">80%</span>
+              </div>
+              <div
+                class="radial-progress text-primary absolute top-0 left-0 text-slate-200 z-0"
+                style="--value: 100"
+                role="progressbar"
+              >
+                <span class="text-black font-extrabold"></span>
+              </div>
+            </div>
+            <h6 class="mt-6 mb-4 text-xl font-semibold">Training Ground</h6>
+            <p class="text-base font-normal leading-[26px]">
+              Amet consectetur. Condimentum dignissim adipiscing.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="mt-24"></footer>
   </body>
