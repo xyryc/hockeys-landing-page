@@ -20,6 +20,8 @@
               clifford: "#da373d",
               customRed: "#FF4240",
               customGray: "rgba(19, 19, 24, 0.6)",
+              customGreen: "rgba(188, 237, 109, 0.1)",
+              customBlue: "rgba(19, 19, 24, 0.03)",
             },
           },
         },
@@ -33,6 +35,9 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Font Awesome cdn -->
+    <script src="https://kit.fontawesome.com/651adfbaf7.js" crossorigin="anonymous"></script>
 
     <style>
       .font-manrope {
@@ -464,7 +469,8 @@
                   </div>
                   <div class="collapse-content">
                     <p class="text-base font-normal text-[131318]">
-                      Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.
+                      Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                      Elit elit enim sagittis turpis in magna.
                     </p>
                   </div>
                 </div>
@@ -513,9 +519,7 @@
 
                 <div class="collapse collapse-plus">
                   <input type="radio" name="my-accordion-3" checked="checked" />
-                  <div class="collapse-title text-xl font-bold">
-                    Booking
-                  </div>
+                  <div class="collapse-title text-xl font-bold">Booking</div>
                   <div class="collapse-content">
                     <p class="text-base font-normal text-[131318]">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -527,9 +531,7 @@
 
                 <div class="collapse collapse-plus">
                   <input type="radio" name="my-accordion-3" checked="checked" />
-                  <div class="collapse-title text-xl font-bold">
-                    Pricings
-                  </div>
+                  <div class="collapse-title text-xl font-bold">Pricings</div>
                   <div class="collapse-content">
                     <p class="text-base font-normal text-[131318]">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -542,6 +544,119 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- Get In Touch section -->
+      <section class="mt-24">
+        <!-- title -->
+        <div class="text-center py-8 border-dashed border-y-2">
+          <h3 class="text-4xl font-extrabold">Get In Touch</h3>
+          <p
+            class="text-base font-medium text-customGray leading-[26px] mt-6 w-10/12 md:w-1/2 inline-flex"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <!-- form -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+          <!-- contact info -->
+          <div class="border p-6 lg:p-12 rounded-2xl">
+            <!-- phone -->
+            <div class="p-8 bg-customGreen rounded-2xl">
+              <img src="images/Group 1171275317.png" alt="" />
+              <p class="text-base font-normal text-[#131318] mt-6 mb-2">
+                Phone Number:
+              </p>
+              <p class="text-lg font-extrabold">(+62) 123-321-543</p>
+            </div>
+
+            <!-- email -->
+            <div class="p-8 bg-customGreen rounded-2xl my-6">
+              <img src="images/Group 1171275318.png" alt="" />
+              <p class="text-base font-normal text-[#131318] mt-6 mb-2">
+                Email:
+              </p>
+              <p class="text-lg font-extrabold">hockeys@support.com</p>
+            </div>
+
+            <!-- location -->
+            <div class="p-8 bg-customGreen rounded-2xl">
+              <img src="images/Group 1171275321.png" alt="" />
+              <p class="text-base font-normal text-[#131318] mt-6 mb-2">
+                Location:
+              </p>
+              <p class="text-lg font-extrabold">
+                36/7 Red July Street, Dinajpur
+              </p>
+            </div>
+          </div>
+
+          <!-- contact form -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+            <div>
+              <h3 class="text-xl font-bold mb-4">Your Name</h3>
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="input w-full bg-customBlue"
+              />
+            </div>
+
+            <div>
+              <h3 class="text-xl font-bold mb-4">Your Email</h3>
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="input w-full bg-customBlue"
+              />
+            </div>
+
+            <div>
+              <h3 class="text-xl font-bold mb-4">Subject</h3>
+              <input
+                type="text"
+                placeholder="Enter your subject"
+                class="input w-full bg-customBlue"
+              />
+            </div>
+
+            <div>
+              <h3 class="text-xl font-bold mb-4">Phone Number</h3>
+              <input
+                type="text"
+                placeholder="Enter your phone number"
+                class="input w-full bg-customBlue"
+              />
+            </div>
+
+            <div class="md:col-span-2">
+              <h3 class="text-xl font-bold mb-4">Message</h3>
+              <textarea
+                placeholder="Write your message"
+                class="input w-full bg-customBlue h-[200px] md:h-[350px] p-5"
+              ></textarea>
+            </div>
+
+            <input
+              class="btn bg-customRed text-white md:col-span-2"
+              type="submit"
+              value="Send Message"
+            />
+          </div>
+        </div>
+
+        <!-- social -->
+         <div class="text-center p-9 mt-12">
+          <h2 class="text-2xl font-extrabold mb-6">Social Media</h2>
+          <div class="flex justify-center gap-8">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+         </div>
       </section>
     </main>
 
